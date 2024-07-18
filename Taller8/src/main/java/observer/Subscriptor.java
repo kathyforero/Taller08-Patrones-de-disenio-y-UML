@@ -9,8 +9,8 @@ import espol.taller8.Cliente;
  * @author Cecy
  */
 public class Subscriptor extends Cliente {
-    @Override
-    public void update(){
+    
+    public void update(String estado){
         //Todo
     }
 }
