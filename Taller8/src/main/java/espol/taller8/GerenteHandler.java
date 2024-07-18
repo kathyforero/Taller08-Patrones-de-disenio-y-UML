@@ -21,5 +21,6 @@ public class GerenteHandler implements Handler{
     public boolean request(float request) {
        // Pago de más de $2000 USD. Acepta el pago si el gerente manda su autorización y retorna true, caso contrario lo declina y retorna false.
        //Lógica condicional si el gerente acepta retornamos true, sino se retorna false. Ya no setteamos next en este caso ya que gerente es el último handler y hasta aquí quedaría el manejo de requests.      
+       return true;
     }
 }
