@@ -1,5 +1,7 @@
 package espol.taller8.Strategy;
 
+import espol.taller8.Cliente;
+
 public class OrkutStrategy implements NotificationStrategy{
 
     @Override
